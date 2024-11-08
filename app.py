@@ -34,7 +34,7 @@ def main():
             st.write("Prediction:")
             st.write(params)
     if nav== 'About' :
-        st.write("THis project is done by Sriram")   
+        st.write("THis project is done by Neeraj")   
 
 def preprocess_image(image_array):
     image_array=cv2.resize(image_array,(28,28))/255.0
